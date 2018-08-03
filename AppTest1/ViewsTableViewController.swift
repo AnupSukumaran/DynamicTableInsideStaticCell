@@ -40,20 +40,25 @@ class ViewsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        insideTableView.delegate = dataSource
+        insideTableView.dataSource = dataSource
+        //insideTableView.isScrollEnabled = false
+      
     }
     
     override func viewDidLayoutSubviews() {
-        insideTableView.delegate = dataSource
-        insideTableView.dataSource = dataSource
+        var frame = tableView.frame
+        frame.size.height = tableView.contentSize.height
+        tableView.frame = frame
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat{
         
         if indexPath.row == 0 {
-            return insideTableView.frame.height
+              print("insdietable = \(insideTableView.contentSize.height)")
+            return insideTableView.contentSize.height
         }
-       return 100
+       return tableView.frame.size.height - insideTableView.contentSize.height
     }
 
    

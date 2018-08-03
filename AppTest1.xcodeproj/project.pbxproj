@@ -13,6 +13,7 @@
 		6FCF946F2114152C00F7BBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF946D2114152C00F7BBBE /* LaunchScreen.storyboard */; };
 		6FCF94772114169D00F7BBBE /* ViewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF94762114169D00F7BBBE /* ViewsTableViewController.swift */; };
 		6FCF947921141CEA00F7BBBE /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF947821141CEA00F7BBBE /* MainTableViewCell.swift */; };
+		6FCF947B2114229100F7BBBE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF947A2114229100F7BBBE /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6FCF94702114152C00F7BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FCF94762114169D00F7BBBE /* ViewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTableViewController.swift; sourceTree = "<group>"; };
 		6FCF947821141CEA00F7BBBE /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		6FCF947A2114229100F7BBBE /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6FCF946D2114152C00F7BBBE /* LaunchScreen.storyboard */,
 				6FCF94702114152C00F7BBBE /* Info.plist */,
 				6FCF947821141CEA00F7BBBE /* MainTableViewCell.swift */,
+				6FCF947A2114229100F7BBBE /* TestViewController.swift */,
 			);
 			path = AppTest1;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				6FCF94772114169D00F7BBBE /* ViewsTableViewController.swift in Sources */,
 				6FCF947921141CEA00F7BBBE /* MainTableViewCell.swift in Sources */,
+				6FCF947B2114229100F7BBBE /* TestViewController.swift in Sources */,
 				6FCF94652114152500F7BBBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
